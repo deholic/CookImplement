@@ -10,10 +10,11 @@ namespace CookImplement.Dialog
 {
     public partial class ErrorDialog : Form
     {
-        public ErrorDialog(string s)
+        public ErrorDialog(string exception, string target)
         {
             InitializeComponent();
-            textBox1.Text = s;
+            textBox1.Text += target;
+            textBox1.Text += "\n" + exception;
             linkLabel1.Text = Application.CompanyName;
         }
 

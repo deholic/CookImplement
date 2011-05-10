@@ -154,7 +154,8 @@ namespace CookImplement
             }
             catch (IndexOutOfRangeException e)
             {
-                ErrorDialog error = new ErrorDialog(e.StackTrace); error.ShowDialog();
+                
+                ErrorDialog error = new ErrorDialog(s, e.StackTrace); error.ShowDialog();
             }
         }
         public static char checkRank(int i)
@@ -489,7 +490,7 @@ namespace CookImplement
 
         /// <summary>
         /// Make object through 'Console Input'
-        /// For using only testments.
+        /// Only for using testments.
         /// </summary>
         public Stuff()
         {
