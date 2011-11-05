@@ -22,7 +22,7 @@ namespace CookImplement.Dialog
         {
             Clipboard.Clear();
             Clipboard.SetText(textBox1.Text);
-            MessageBox.Show("복사 되었습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(CookImplement.Properties.Resources.MsgCopied, CookImplement.Properties.Resources.StrInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button1_Click(object sender, EventArgs e)

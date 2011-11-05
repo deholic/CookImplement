@@ -118,76 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Effect1" xml:space="preserve">
-    <value>체력</value>
+    <value>STR</value>
     <comment>Str</comment>
   </data>
   <data name="Effect10" xml:space="preserve">
-    <value>다이어트 효과</value>
+    <value>ダイエット効果</value>
     <comment>Diet</comment>
   </data>
   <data name="Effect2" xml:space="preserve">
-    <value>지력</value>
+    <value>INT</value>
     <comment>Int</comment>
   </data>
   <data name="Effect3" xml:space="preserve">
-    <value>솜씨</value>
+    <value>DEX</value>
     <comment>Dex</comment>
   </data>
   <data name="Effect4" xml:space="preserve">
-    <value>의지</value>
+    <value>Will</value>
     <comment>Will</comment>
   </data>
   <data name="Effect5" xml:space="preserve">
-    <value>행운</value>
+    <value>Luck</value>
     <comment>Luk</comment>
   </data>
   <data name="Effect6" xml:space="preserve">
-    <value>최대생명력</value>
+    <value>最大HP</value>
     <comment>MaxHP+</comment>
   </data>
   <data name="Effect7" xml:space="preserve">
-    <value>최대마나</value>
+    <value>マナ</value>
     <comment>MP</comment>
   </data>
   <data name="Effect8" xml:space="preserve">
-    <value>최대스태미너</value>
+    <value>最大スタミナ</value>
     <comment>MaxSP+</comment>
   </data>
   <data name="Effect9" xml:space="preserve">
-    <value>스태미너 회복도</value>
+    <value>スタミナ</value>
     <comment>SP+</comment>
   </data>
   <data name="MsgContinue" xml:space="preserve">
-    <value>계속 진행하려면 아무 키나 누르세요.</value>
+    <value>続行するには何かキーを押してください．．．</value>
   </data>
   <data name="MsgCopied" xml:space="preserve">
-    <value>복사 되었습니다.</value>
+    <value>クリップボードにコピーしました。</value>
   </data>
   <data name="MsgDataInvalid" xml:space="preserve">
-    <value>입력한 데이터의 형식이 잘못 되었습니다.</value>
+    <value>無効なデーター型が入力されています。</value>
   </data>
   <data name="MsgInsertStuffHowToGet" xml:space="preserve">
-    <value>재료 입수 방법을 입력하세요.</value>
+    <value>材料の入手方法を入力してください。</value>
   </data>
   <data name="MsgInsertStuffName" xml:space="preserve">
-    <value>재료 이름을 입력하세요.</value>
+    <value>材料名を入力してください。</value>
   </data>
   <data name="MsgInsertStuffPrice" xml:space="preserve">
-    <value>재료 가격을 입력하세요.</value>
+    <value>材料の価格を入力してください。</value>
   </data>
   <data name="MsgLegend" xml:space="preserve">
-    <value>케이틴 = 0, 글리니스 = 1, 세나 = 2, 글루아스 = 3, 리리스 = 4,
-에피 = 5, 제니퍼 = 6, 루와이 = 7, 피에릭 = 8, 글라니테스 = 9,
-반스트 = 10, 고든 = 11, 프레이저 = 12, 채집 = 13, 요리 = 14</value>
+    <value>ケイティン = 0, グリニス = 1, シェーナ = 2, グルアス = 3, リリス = 4,
+エピ = 5, ジェニファー = 6, ルワイ = 7, ピエリック = 8, グラニテス = 9,
+バンスト = 10, ゴードン = 11, フレイザー  = 12, 採集 = 13, 料理 = 14</value>
   </data>
   <data name="StrInfo" xml:space="preserve">
-    <value>알림</value>
+    <value>情報</value>
   </data>
   <data name="StrNothing" xml:space="preserve">
-    <value>없음</value>
+    <value>なし</value>
   </data>
   <data name="StrStuff" xml:space="preserve">
-    <value>요리재료</value>
+    <value>料理の材料</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="_00_P" type="System.Resources.ResXFileRef, System.Windows.Forms">

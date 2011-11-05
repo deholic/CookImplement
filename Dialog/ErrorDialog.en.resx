@@ -117,110 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Effect1" xml:space="preserve">
-    <value>체력</value>
-    <comment>Str</comment>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 30</value>
   </data>
-  <data name="Effect10" xml:space="preserve">
-    <value>다이어트 효과</value>
-    <comment>Diet</comment>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Please report following content to the developer.
+Help us to improve the program.</value>
   </data>
-  <data name="Effect2" xml:space="preserve">
-    <value>지력</value>
-    <comment>Int</comment>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
   </data>
-  <data name="Effect3" xml:space="preserve">
-    <value>솜씨</value>
-    <comment>Dex</comment>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
   </data>
-  <data name="Effect4" xml:space="preserve">
-    <value>의지</value>
-    <comment>Will</comment>
+  <data name="label2.Text" xml:space="preserve">
+    <value>An error occurred</value>
   </data>
-  <data name="Effect5" xml:space="preserve">
-    <value>행운</value>
-    <comment>Luk</comment>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Close</value>
   </data>
-  <data name="Effect6" xml:space="preserve">
-    <value>최대생명력</value>
-    <comment>MaxHP+</comment>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Copy</value>
   </data>
-  <data name="Effect7" xml:space="preserve">
-    <value>최대마나</value>
-    <comment>MP</comment>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 15</value>
   </data>
-  <data name="Effect8" xml:space="preserve">
-    <value>최대스태미너</value>
-    <comment>MaxSP+</comment>
-  </data>
-  <data name="Effect9" xml:space="preserve">
-    <value>스태미너 회복도</value>
-    <comment>SP+</comment>
-  </data>
-  <data name="MsgContinue" xml:space="preserve">
-    <value>계속 진행하려면 아무 키나 누르세요.</value>
-  </data>
-  <data name="MsgCopied" xml:space="preserve">
-    <value>복사 되었습니다.</value>
-  </data>
-  <data name="MsgDataInvalid" xml:space="preserve">
-    <value>입력한 데이터의 형식이 잘못 되었습니다.</value>
-  </data>
-  <data name="MsgInsertStuffHowToGet" xml:space="preserve">
-    <value>재료 입수 방법을 입력하세요.</value>
-  </data>
-  <data name="MsgInsertStuffName" xml:space="preserve">
-    <value>재료 이름을 입력하세요.</value>
-  </data>
-  <data name="MsgInsertStuffPrice" xml:space="preserve">
-    <value>재료 가격을 입력하세요.</value>
-  </data>
-  <data name="MsgLegend" xml:space="preserve">
-    <value>케이틴 = 0, 글리니스 = 1, 세나 = 2, 글루아스 = 3, 리리스 = 4,
-에피 = 5, 제니퍼 = 6, 루와이 = 7, 피에릭 = 8, 글라니테스 = 9,
-반스트 = 10, 고든 = 11, 프레이저 = 12, 채집 = 13, 요리 = 14</value>
-  </data>
-  <data name="StrInfo" xml:space="preserve">
-    <value>알림</value>
-  </data>
-  <data name="StrNothing" xml:space="preserve">
-    <value>없음</value>
-  </data>
-  <data name="StrStuff" xml:space="preserve">
-    <value>요리재료</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="_00_P" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\00-P.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_01_F" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01-F.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_02_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\02-E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_03_D" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\03-D.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_04_C" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\04-C.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_05_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\05-B.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_06_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\06-A.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_07_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\07-9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_08_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\08-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_09_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\09-7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_10_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10-6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
 </root>

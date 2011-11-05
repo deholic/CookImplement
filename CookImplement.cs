@@ -14,7 +14,19 @@ namespace CookImplement
         public Image rImage;
 
         public enum rNames
-        { 혼합 = 0, 굽기 = 1, 삶기 = 2, 반죽 = 3, 끓이기 = 4, 면 = 5, 튀기기 = 6, 볶기 = 7, 파스타 = 8, 잼 = 9, 파이 = 10 };
+        {
+            혼합 = 0,
+            굽기 = 1,
+            삶기 = 2,
+            반죽 = 3,
+            끓이기 = 4,
+            면 = 5,
+            튀기기 = 6,
+            볶기 = 7,
+            파스타 = 8,
+            잼 = 9,
+            파이 = 10 
+        };
 
         public Rank(Char RankNumber)
         {
@@ -117,20 +129,20 @@ namespace CookImplement
                                 {
                                     if (parsebuffer[1].Equals("1"))
                                     {
-                                        cSpecialEffect += "요리재료";
+                                        cSpecialEffect += CookImplement.Properties.Resources.StrStuff;
                                         cEffect[parsemode] += 1;
                                     }
                                     else
                                     {
                                         cSpecialEffect += parsebuffer[1];
-                                        if (!parsebuffer[1].Contains("없음")) cEffect[parsemode] += 2;
+                                        if (!parsebuffer[1].Contains(CookImplement.Properties.Resources.StrNothing)) cEffect[parsemode] += 2;
                                         else cEffect[parsemode] = -1;
                                     }
                                 }
                                 else if (parsemode == 10)
                                 {
                                     cEffect[parsemode] = int.Parse(parsebuffer[1]);
-                                    cSpecialEffect += "다이어트 효과";
+                                    cSpecialEffect += CookImplement.Properties.Resources.Effect10;
                                 }
                                 else
                                 {
@@ -261,9 +273,9 @@ namespace CookImplement
                 {
                     if (i == 0)
                     {
-                        if (cEffect[i] == 1) buffer.Append(i + ":요리 재료");
+                        if (cEffect[i] == 1) buffer.Append(i + ":" + CookImplement.Properties.Resources.StrStuff);
                         else if (cEffect[i] == 2) buffer.Append(i + ":" + cSpecialEffect);
-                        else if (cEffect[i] == -1) buffer.Append(i + ":효과 없음");
+                        else if (cEffect[i] == -1) buffer.Append(i + ":" + CookImplement.Properties.Resources.StrNothing);
                     }
                     else if (i == 10) buffer.Append(i + ":7");
                     else
@@ -301,35 +313,35 @@ namespace CookImplement
                                 break;
                             }
                         case 1:
-                            buffer.Append("체력 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect1);
                             break;
                         case 2:
-                            buffer.Append("지력 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect2);
                             break;
                         case 3:
-                            buffer.Append("솜씨 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect3);
                             break;
                         case 4:
-                            buffer.Append("의지 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect4);
                             break;
                         case 5:
-                            buffer.Append("행운 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect5);
                             break;
                         case 6:
-                            buffer.Append("최대생명력 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect6);
                             break;
                         case 7:
-                            buffer.Append("최대마나 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect7);
                             break;
                         case 8:
-                            buffer.Append("최대스태미너 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect8);
                             break;
                         case 9:
-                            buffer.Append("스태미너 회복도 ");
+                            buffer.Append(CookImplement.Properties.Resources.Effect9);
                             break;
                         case 10:
                             if (cEffect[i] > 0)
-                                buffer.Append("다이어트 효과");
+                                buffer.Append(CookImplement.Properties.Resources.Effect10);
                             break;
                     }
                     if (i != 0 && i != 10)
@@ -496,12 +508,12 @@ namespace CookImplement
         {
             try
             {
-                Console.Write("재료 이름을 입력하세요.\n# ");
+                Console.Write(CookImplement.Properties.Resources.MsgInsertStuffName+ "\n# ");
                 this.Name = Console.ReadLine();
-                Console.Write("재료 가격을 입력하세요.\n# ");
+                Console.Write(CookImplement.Properties.Resources.MsgInsertStuffPrice + "\n# ");
                 this.Price = Int32.Parse(Console.ReadLine());
-                Console.Write("재료 입수 방법을 입력하세요.\n ");
-                Console.Write("케이틴 = 0, 글리니스 = 1, 세나 = 2, 글루아스 = 3, 리리스 = 4, \n에피 = 5, 제니퍼 = 6, 루와이 = 7, 피에릭 = 8, 글라니테스 = 9, \n반스트 = 10, 고든 = 11, 프레이저 = 12, 채집 = 13, 요리 = 14 \n#");
+                Console.Write(CookImplement.Properties.Resources.MsgInsertStuffHowToGet + "\n");
+                Console.Write(CookImplement.Properties.Resources.MsgLegend + "\n#");
                 int i = -1;
                 i = Int32.Parse(Console.ReadLine());
                 while (i >= 0 && i <= 15)
@@ -514,9 +526,9 @@ namespace CookImplement
             }
             catch (IndexOutOfRangeException e)
             {
-                Console.WriteLine("입력한 데이터의 형식이 잘못 되었습니다.");
+                Console.WriteLine(CookImplement.Properties.Resources.MsgDataInvalid);
                 Console.WriteLine(e.StackTrace);
-                Console.WriteLine("계속 진행하려면 아무 키나 누르세요.");
+                Console.WriteLine(CookImplement.Properties.Resources.MsgContinue);
             }
         }
         /// <summary>
@@ -538,9 +550,9 @@ namespace CookImplement
             }
             catch (IndexOutOfRangeException e)
             {
-                Console.WriteLine("데이터 파일의 형식이 잘못 되었습니다.");
+                Console.WriteLine(CookImplement.Properties.Resources.MsgDataInvalid);
                 Console.WriteLine(e.StackTrace);
-                Console.WriteLine("계속 진행하려면 아무 키나 누르세요.");
+                Console.WriteLine(CookImplement.Properties.Resources.MsgContinue);
             }
         }
         public override String ToString()
