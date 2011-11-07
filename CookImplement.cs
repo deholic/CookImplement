@@ -304,7 +304,7 @@ namespace CookImplement
                         case 0:
                             if (cEffect[i] == 1)
                             {
-                                buffer.Append("요리재료로 쓰임");
+                                buffer.Append(CookImplement.Properties.Resources.StrStuff);
                                 break;
                             }
                             else
