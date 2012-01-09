@@ -178,7 +178,58 @@
   <data name="MsgLegend" xml:space="preserve">
     <value>Ceitinn = 0, Glynis = 1, Scena = 2, Glewyas = 3, Lilith = 4,
 Epi = 5, Jennifer = 6, Ruway = 7, Pierrick = 8, Granites = 9,
-Wanst = 10, Gordon = 11, Fraser  = 12, by Gathering = 13, by Cooking = 14</value>
+Wanst = 10, Gordon = 11, Fraser  = 12, by Gathering = 13, by Cooking = 14, Lucas = 15, Kadok = 16</value>
+  </data>
+  <data name="Seller00" xml:space="preserve">
+    <value>Ceitinn</value>
+  </data>
+  <data name="Seller01" xml:space="preserve">
+    <value>Glynis</value>
+  </data>
+  <data name="Seller02" xml:space="preserve">
+    <value>Scena</value>
+  </data>
+  <data name="Seller03" xml:space="preserve">
+    <value>Glewyas</value>
+  </data>
+  <data name="Seller04" xml:space="preserve">
+    <value>Lilith</value>
+  </data>
+  <data name="Seller05" xml:space="preserve">
+    <value>Effie</value>
+  </data>
+  <data name="Seller06" xml:space="preserve">
+    <value>Jennifer</value>
+  </data>
+  <data name="Seller07" xml:space="preserve">
+    <value>Ruway</value>
+  </data>
+  <data name="Seller08" xml:space="preserve">
+    <value>Pierrick</value>
+  </data>
+  <data name="Seller09" xml:space="preserve">
+    <value>Granites</value>
+  </data>
+  <data name="Seller10" xml:space="preserve">
+    <value>Wanst</value>
+  </data>
+  <data name="Seller11" xml:space="preserve">
+    <value>Gordon</value>
+  </data>
+  <data name="Seller12" xml:space="preserve">
+    <value>Fraser</value>
+  </data>
+  <data name="Seller13" xml:space="preserve">
+    <value>by Gathering</value>
+  </data>
+  <data name="Seller14" xml:space="preserve">
+    <value>by Cooking</value>
+  </data>
+  <data name="Seller15" xml:space="preserve">
+    <value>Lucas</value>
+  </data>
+  <data name="Seller16" xml:space="preserve">
+    <value>Kadok</value>
   </data>
   <data name="StrInfo" xml:space="preserve">
     <value>Infomation</value>

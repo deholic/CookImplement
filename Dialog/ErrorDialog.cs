@@ -15,7 +15,8 @@ namespace CookImplement.Dialog
             InitializeComponent();
             textBox1.Text += target;
             textBox1.Text += "\n" + exception;
-            linkLabel1.Text = Application.CompanyName;
+            this.lLink.Text = Application.CompanyName;
+            this.lVersion.Text = "v" + this.ProductVersion;
         }
 
         private void button2_Click(object sender, EventArgs e)

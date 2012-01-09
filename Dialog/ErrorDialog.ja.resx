@@ -117,76 +117,57 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Effect1" xml:space="preserve">
-    <value>STR</value>
-    <comment>Str</comment>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 37</value>
   </data>
-  <data name="Effect10" xml:space="preserve">
-    <value>ダイエット効果</value>
-    <comment>Diet</comment>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 30</value>
   </data>
-  <data name="Effect2" xml:space="preserve">
-    <value>INT</value>
-    <comment>Int</comment>
+  <data name="label1.Text" xml:space="preserve">
+    <value>以下の内容をコピーして、開発者に報告してください。
+プログラムの改善に役立たせていただきます。</value>
   </data>
-  <data name="Effect3" xml:space="preserve">
-    <value>DEX</value>
-    <comment>Dex</comment>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 14.25pt</value>
   </data>
-  <data name="Effect4" xml:space="preserve">
-    <value>Will</value>
-    <comment>Will</comment>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 28</value>
   </data>
-  <data name="Effect5" xml:space="preserve">
-    <value>Luck</value>
-    <comment>Luk</comment>
+  <data name="label2.Text" xml:space="preserve">
+    <value>エラーが発生しました。</value>
   </data>
-  <data name="Effect6" xml:space="preserve">
-    <value>最大HP</value>
-    <comment>MaxHP+</comment>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 70</value>
   </data>
-  <data name="Effect7" xml:space="preserve">
-    <value>マナ</value>
-    <comment>MP</comment>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 221</value>
   </data>
-  <data name="Effect8" xml:space="preserve">
-    <value>最大スタミナ</value>
-    <comment>MaxSP+</comment>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 297</value>
   </data>
-  <data name="Effect9" xml:space="preserve">
-    <value>スタミナ</value>
-    <comment>SP+</comment>
+  <data name="button1.Text" xml:space="preserve">
+    <value>閉じる</value>
   </data>
-  <data name="MsgContinue" xml:space="preserve">
-    <value>続行するには何かキーを押してください．．．</value>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 297</value>
   </data>
-  <data name="MsgCopied" xml:space="preserve">
-    <value>クリップボードにコピーしました。</value>
+  <data name="button2.Text" xml:space="preserve">
+    <value>コピー</value>
   </data>
-  <data name="MsgDataInvalid" xml:space="preserve">
-    <value>無効なデーター型が入力されています。</value>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 301</value>
   </data>
-  <data name="MsgInsertStuffHowToGet" xml:space="preserve">
-    <value>材料の入手方法を入力してください。</value>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 15</value>
   </data>
-  <data name="MsgInsertStuffName" xml:space="preserve">
-    <value>材料名を入力してください。</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 332</value>
   </data>
-  <data name="MsgInsertStuffPrice" xml:space="preserve">
-    <value>材料の価格を入力してください。</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
   </data>
-  <data name="MsgLegend" xml:space="preserve">
-    <value>ケイティン = 0, グリニス = 1, シェーナ = 2, グルアス = 3, リリス = 4,
-エピ = 5, ジェニファー = 6, ルワイ = 7, ピエリック = 8, グラニテス = 9,
-バンスト = 10, ゴードン = 11, フレイザー  = 12, 採集 = 13, 料理 = 14</value>
-  </data>
-  <data name="StrInfo" xml:space="preserve">
-    <value>情報</value>
-  </data>
-  <data name="StrNothing" xml:space="preserve">
-    <value>なし</value>
-  </data>
-  <data name="StrStuff" xml:space="preserve">
-    <value>料理の材料</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>エラー</value>
   </data>
 </root>

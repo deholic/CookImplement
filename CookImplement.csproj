@@ -59,16 +59,17 @@
     <EmbeddedResource Include="Dialog\ErrorDialog.en.resx">
       <DependentUpon>ErrorDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dialog\ErrorDialog.ja-JP.resx">
+    <EmbeddedResource Include="Dialog\ErrorDialog.ja.resx">
       <DependentUpon>ErrorDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialog\ErrorDialog.resx">
       <DependentUpon>ErrorDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ja-JP.resx" />
+    <EmbeddedResource Include="Properties\Resources.ja.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.en.resx" />
   </ItemGroup>
@@ -104,6 +105,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\08-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\button_cancel.png" />
+    <Content Include="Resources\button_ok.png" />
+    <None Include="Resources\critical.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\gear.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -118,161 +118,106 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
-    <value>linkLabel1</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 11</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 301</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ErrorDialog</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>복사하기</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 216</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 41</value>
+    <value>52, 34</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 30</value>
   </data>
-  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>아래 내용을 복사하여 개발자에게 보고해 주세요.
 프로그램 개선에 큰 도움이 됩니다.</value>
   </data>
-  <data name="textBox1.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>384, 334</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="linkLabel1.Text" xml:space="preserve">
-    <value>linkLabel1</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 25</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 15</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 305</value>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 9</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 30</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>에러가 발생했습니다.</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 67</value>
+  </data>
+  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 224</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
+  </data>
+  <data name="button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 297</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 79</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="button1.Text" xml:space="preserve">
+    <value>닫기</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
@@ -280,31 +225,279 @@
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>닫기</value>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 301</value>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 9pt</value>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 297</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Error</value>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>복사하기</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>에러가 발생했습니다.</value>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lVersion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>en</value>
+  <data name="lVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 8pt</value>
+  </data>
+  <data name="lVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 303</value>
+  </data>
+  <data name="lVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="lVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;lVersion.Name" xml:space="preserve">
+    <value>lVersion</value>
+  </data>
+  <data name="&gt;&gt;lVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lVersion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lVersion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 301</value>
+  </data>
+  <data name="lLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 15</value>
+  </data>
+  <data name="lLink.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lLink.Text" xml:space="preserve">
+    <value>CookImplement</value>
+  </data>
+  <data name="lLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="&gt;&gt;lLink.Name" xml:space="preserve">
+    <value>lLink</value>
+  </data>
+  <data name="&gt;&gt;lLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lLink.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 332</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAICAAAAEAIACoEAAANgAAABgYAAABACAAiAkAAN4QAAAQEAAAAQAgAGgEAABmGgAAKAAAACAA
+        AABAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAADAAAAAwAAAAMAAAADAAAAAYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAABrAAAAaAAAAGgAAABrAAAANQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXV1dscTEw/y6urn2urq69sPD
+        w/xPT0+fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAgAAAAAAAAAAAAAAAAAAAAB6ennI6ejm/97d
+        2//e3dz/6ejn/2hnZ7oAAAAAAAAAAAAAAAAAAAAAAAAAAwAAABEAAAACAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICORISEogAAAAqAAAAAAAAAAwAAAA2AAAAZJGR
+        kebg393/19bU/9fW1f/i4eD/fn5+3QAAAF0AAAAxAAAACwAAAAAAAAA2ExMTjAEBATgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADtiYmLN5+fm/0ZGRrYAAABTGBgYjW1t
+        btWzsrL03Nvb/9fW1P/X1tT/19bU/9fW1f/b2tn/ra2s8mRkZNASEhKFAAAAUlFRUcDf397/WFhYxwAA
+        ADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7cXFx1vr6+f/5+Pf/6Ono/aam
+        pu7X1tb87+/u/9/e3f/W1dT/1tXU/9fW1P/X1tT/19bV/9fW1f/h4N7/6ejm/8nIx/qenp3s3Nza/t/e
+        2//m5eT/ZGRkzgAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVlZcX8/Pv/8/Py/+/v
+        7v/x8fD/+Pj3/+vr6v/f3t3/19bV/9bV1P/X1tX/2NfV/9jX1f/Y19b/19bV/9jX1f/Y19X/3NvZ/+Tj
+        4f/Z2Nb/2NfV/9rZ1//m5eT/V1dXugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAu7u73P//
+        ///v7+7/7+/u/+7u7f/s6+r/5ubl/97d3P/W1dT/09LR/9LR0P/T0c//09LQ/9PS0f/V1NP/2NfV/9jX
+        1f/Y19X/2NfV/9jX1f/Y19X/19bU/+vq6P+tra3SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAlJSYlurq66/b29f/u7u3/7O3s/+rq6f/j4uH/2trZ/9fW1v/c29r/2djX/9XU0//Y19b/2djX/9fW
+        1f/U0tH/1dTS/9nY1v/Y19X/2NfV/9jX1f/f3tz/qqqp5hoaGx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABzc3PK+fn4/+zs6//q6ej/5eTj/+bm5f/u7e3/7u7t/+np6P/f3t3/2NfW/9rZ
+        2f/e3dz/4eDg/+Pi4v/b2tr/1NLQ/9nY1v/Y19X/2NfV/+Xk4v9lZWXAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAACgoKScnJyfnw7+7/6Ojn/+Xk4//k4+L/8/Py//Dw7//t7ez/5+fm/9/e
+        3f/CwcH/zszM/9/e3f/g39//4+Lh/+rp6f/g397/1dTS/9nY1v/Y19X/3t3b/7e3tvYFBQU9AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSUlKp8O/u/+Tj4v/h4eD/2NfW/+Lh4P/y8vH/7u7t/+vr
+        6v/l5OP/2tnY/9TT0//Z2Nf/3Nva/+Df3//l5OP/6ejo/+zs6//Y19X/19XT/9jX1f/Y19X/4+Lg/0ND
+        Q5gAAAAAAAAAAAAAAAAAAAAAAAAAAwAAADYAAABpAAAAa56enenk4+L/2djX/9jX1v/R0M//7Ozr/+7u
+        7f/r6+r/5+fm/+zr6v+7u7vhsbGxr7S0tLfExMPs6ejo/+Tj4v/l5OP/5+bl/+Hg3//S0c//2djW/9jX
+        1f/j4d//k5OS4wAAAG8AAABnAAAAKQAAAAQAAAAIVlZWr7KysvqxsbH22djY/9bV1P/W1dT/09LR/9jX
+        1v/t7ez/6eno/+fn5v/o5+b/mZmZrwAAAAAAAAAAAAAAAK2trgS3t7fU6ejn/+Hg3//i4uH/5OPi/9PS
+        0P/Y19X/2NfV/9jX1f/e3dv/xsfG+Lm5ufZLS0uiAAAACwAAAA6EhIPM7Ovq/9/e3f/X1tX/1tXU/9fW
+        1f/Qz87/2djX/+bm5f/l5OP/4+Lh/8bGxewHBwcPAAAAAAAAAAAAAAAAAAAAAC8vLx20s7L9397d/+Dg
+        3//h4OD/1NPS/9bV0//Y19X/2djW/93c2v/l5eT/9fPz/3p6esEHBwcRAAAADn59fczi4d//19bU/9fW
+        1P/X1tT/2NfV/8/OzP/T0dD/2NfW/8TDwv/e3dz/mJiXygAAAAAAAAAAAAAAAAAAAAAAAAAAAgICBL28
+        u+rU09L/xsXE/97d3P/U0tH/1dTS/9nY1v/a2dj/29rZ/9vb2v/n5+b/c3NzwQYGBhEAAAAOfXx8zOHg
+        3v/W1dP/19bU/9fW1P/Y19X/0M/N/9LR0P/Y19b/zczL/+Hg3/+lpKTfAAAADwAAAAAAAAAAAAAAAAAA
+        AAAJCQkzycjH9dnY2P/Lysr/2dnY/9HQz//V1NP/19bV/9fX1v/Y19b/2djX/+Tj4v9ycnLBBgYGEQEB
+        AQaIiIjG8vHx/+zr6v/d3Nv/1tXU/9jX1v/T0dD/0tHR/93c2//e3dz/3t3d/9rZ2PwmJiZ8AAAADwAA
+        AAIAAAADAAAAGUdHR6Xv7u7/5ubl/+Li4f/b2tn/0c/P/9zb2v/b2tn/19bV/97d3P/s7Ov/8/Py/319
+        fbgICAgLAAAAAJGRkT2oqKh5dXV1fMDAv/Pb2tn/19bV/9bV1P/T0tH/4eDf/9/e3f/f3t7/5+bm/8DA
+        v/E5ODiiCgoKbw8PD3dISEe11dXV+vLy8f/r6+r/6eno/+Hh4P/Z2Nf/5OTj/+Hh4P/i4uH/w8PC8np7
+        e3+trq55ZGRkNQAAAAAAAAAAAAAAAAAAAAAAAAAAfn5+uuTj4v/Y19X/2djW/9HQzv/h4N//4+Lh/+Lh
+        4f/d3Nv/393c/+Pi4f/T09L43Nzb+vj49//09PP/7u7t/+/v7v/t7ez/5eXk/+Tj4v/o6Of/5ubl//Dw
+        7v9tbW2rAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6Ojpi4eHf/9jX1f/Y19X/19bU/9fW
+        1f/o6Of/4N/f/9zc2//Y19b/3t3c/+Hg3//q6ej/8PDv//Dw7//w8O//7+/u//Ly8f/w7+7/7Ovq/+rq
+        6f/r6+r/5OTj/ygoKFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWhoKDi4N/d/9jX
+        1f/Z2Nb/1dTR/9va2f/k4+P/3Nva/9fW1f/g4N//zczL/9vb2v/y8vH/8PDv//Hx8P/z8/L/9vb1/+7u
+        7f/t7ez/7e3s//X19P+Xl5fZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALnl5
+        edfk4+H/2NfV/9jX1f/Z2Nb/1dTS/9fV1P/d3Nv/2tnY/9/e3f/p6ej/7+/u//Hx8P/v7+7/6Ofm/+no
+        5//v7+7/7+/u/+/v7v/v7+3/+fn4/29vb84AAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABRUVG3397d/9nY1v/Y19X/2NfV/9jX1f/Y19X/19bU/9XU0f/W1dT/19bV/+bl5f/n5uX/3tzb/+Tj
+        4v/q6ej/8PDv//Dw7//w8O//8PDv/+/v7v/w8O//6urp/0ZGRqwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAJaWlefm5eP/19bU/9jX1f/Y19X/19bU/9fW1P/Y19X/2djW/97e3f/h4eD/5OTj/+bm
+        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
+        rEHAA6xBwAOsQYADrEHAA6xB8A+sQfw/rEE=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ErrorDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

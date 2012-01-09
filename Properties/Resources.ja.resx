@@ -117,36 +117,171 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 30</value>
+  <data name="Effect1" xml:space="preserve">
+    <value>STR</value>
+    <comment>Str</comment>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>以下の内容をコピーして、開発者に報告してください。
-プログラムの改善に役立たせていただきます。</value>
+  <data name="Effect10" xml:space="preserve">
+    <value>ダイエット効果</value>
+    <comment>Diet</comment>
   </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 14.25pt</value>
+  <data name="Effect2" xml:space="preserve">
+    <value>INT</value>
+    <comment>Int</comment>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 28</value>
+  <data name="Effect3" xml:space="preserve">
+    <value>DEX</value>
+    <comment>Dex</comment>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>エラーが発生しました。</value>
+  <data name="Effect4" xml:space="preserve">
+    <value>Will</value>
+    <comment>Will</comment>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>閉じる</value>
+  <data name="Effect5" xml:space="preserve">
+    <value>Luck</value>
+    <comment>Luk</comment>
   </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>コピー</value>
+  <data name="Effect6" xml:space="preserve">
+    <value>最大HP</value>
+    <comment>MaxHP+</comment>
   </data>
-  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 15</value>
+  <data name="Effect7" xml:space="preserve">
+    <value>マナ</value>
+    <comment>MP</comment>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="Effect8" xml:space="preserve">
+    <value>最大スタミナ</value>
+    <comment>MaxSP+</comment>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>エラー</value>
+  <data name="Effect9" xml:space="preserve">
+    <value>スタミナ</value>
+    <comment>SP+</comment>
+  </data>
+  <data name="MsgContinue" xml:space="preserve">
+    <value>続行するには何かキーを押してください．．．</value>
+  </data>
+  <data name="MsgCopied" xml:space="preserve">
+    <value>クリップボードにコピーしました。</value>
+  </data>
+  <data name="MsgDataInvalid" xml:space="preserve">
+    <value>無効なデーター型が入力されています。</value>
+  </data>
+  <data name="MsgInsertStuffHowToGet" xml:space="preserve">
+    <value>材料の入手方法を入力してください。</value>
+  </data>
+  <data name="MsgInsertStuffName" xml:space="preserve">
+    <value>材料名を入力してください。</value>
+  </data>
+  <data name="MsgInsertStuffPrice" xml:space="preserve">
+    <value>材料の価格を入力してください。</value>
+  </data>
+  <data name="MsgLegend" xml:space="preserve">
+    <value>ケイティン = 0, グリニス = 1, シェーナ = 2, グルアス = 3, リリス = 4,
+エピ = 5, ジェニファー = 6, ルワイ = 7, ピエリック = 8, グラニテス = 9,
+バンスト = 10, ゴードン = 11, フレイザー  = 12, 採集 = 13, 料理 = 14</value>
+  </data>
+  <data name="Rank6" xml:space="preserve">
+    <value>Rank 6 (パイ)</value>
+    <comment>10</comment>
+  </data>
+  <data name="Rank7" xml:space="preserve">
+    <value>Rank 7 (ジャム)</value>
+    <comment>9</comment>
+  </data>
+  <data name="Rank8" xml:space="preserve">
+    <value>Rank 8 (パスタ)</value>
+    <comment>8</comment>
+  </data>
+  <data name="Rank9" xml:space="preserve">
+    <value>Rank 9 (炒める)</value>
+    <comment>7</comment>
+  </data>
+  <data name="RankA" xml:space="preserve">
+    <value>Rank A (揚げる)</value>
+    <comment>6</comment>
+  </data>
+  <data name="RankB" xml:space="preserve">
+    <value>Rank B (麺)</value>
+    <comment>5</comment>
+  </data>
+  <data name="RankC" xml:space="preserve">
+    <value>Rank C (煮込む)</value>
+    <comment>4</comment>
+  </data>
+  <data name="RankD" xml:space="preserve">
+    <value>Rank D (生地)</value>
+    <comment>3</comment>
+  </data>
+  <data name="RankE" xml:space="preserve">
+    <value>Rank E (茹でる・煮る)</value>
+    <comment>2</comment>
+  </data>
+  <data name="RankF" xml:space="preserve">
+    <value>Rank F (燃く)</value>
+    <comment>1</comment>
+  </data>
+  <data name="RankP" xml:space="preserve">
+    <value>練習（混ぜる）</value>
+    <comment>0</comment>
+  </data>
+  <data name="Seller00" xml:space="preserve">
+    <value>ケイティン</value>
+  </data>
+  <data name="Seller01" xml:space="preserve">
+    <value>グリニス</value>
+  </data>
+  <data name="Seller02" xml:space="preserve">
+    <value>シェーナ</value>
+  </data>
+  <data name="Seller03" xml:space="preserve">
+    <value>グルアス</value>
+  </data>
+  <data name="Seller04" xml:space="preserve">
+    <value>リリス</value>
+  </data>
+  <data name="Seller05" xml:space="preserve">
+    <value>エフィー</value>
+  </data>
+  <data name="Seller06" xml:space="preserve">
+    <value>ジェニファー</value>
+  </data>
+  <data name="Seller07" xml:space="preserve">
+    <value>ルワイ</value>
+  </data>
+  <data name="Seller08" xml:space="preserve">
+    <value>ピエリック</value>
+  </data>
+  <data name="Seller09" xml:space="preserve">
+    <value>グラニテス</value>
+  </data>
+  <data name="Seller10" xml:space="preserve">
+    <value>バンスト</value>
+  </data>
+  <data name="Seller11" xml:space="preserve">
+    <value>ゴードン</value>
+  </data>
+  <data name="Seller12" xml:space="preserve">
+    <value>フレイザー</value>
+  </data>
+  <data name="Seller13" xml:space="preserve">
+    <value>採集</value>
+  </data>
+  <data name="Seller14" xml:space="preserve">
+    <value>料理</value>
+  </data>
+  <data name="Seller15" xml:space="preserve">
+    <value>ルーカス</value>
+  </data>
+  <data name="Seller16" xml:space="preserve">
+    <value>カドック</value>
+  </data>
+  <data name="StrInfo" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="StrNothing" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="StrStuff" xml:space="preserve">
+    <value>料理の材料</value>
   </data>
 </root>

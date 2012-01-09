@@ -22,7 +22,7 @@ namespace CookImplement.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace CookImplement.Properties {
         ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CookImplement.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace CookImplement.Properties {
         ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -60,79 +60,100 @@ namespace CookImplement.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap _00_P {
+        public static System.Drawing.Bitmap _00_P {
             get {
                 object obj = ResourceManager.GetObject("_00_P", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _01_F {
+        public static System.Drawing.Bitmap _01_F {
             get {
                 object obj = ResourceManager.GetObject("_01_F", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _02_E {
+        public static System.Drawing.Bitmap _02_E {
             get {
                 object obj = ResourceManager.GetObject("_02_E", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _03_D {
+        public static System.Drawing.Bitmap _03_D {
             get {
                 object obj = ResourceManager.GetObject("_03_D", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _04_C {
+        public static System.Drawing.Bitmap _04_C {
             get {
                 object obj = ResourceManager.GetObject("_04_C", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _05_B {
+        public static System.Drawing.Bitmap _05_B {
             get {
                 object obj = ResourceManager.GetObject("_05_B", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _06_A {
+        public static System.Drawing.Bitmap _06_A {
             get {
                 object obj = ResourceManager.GetObject("_06_A", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _07_9 {
+        public static System.Drawing.Bitmap _07_9 {
             get {
                 object obj = ResourceManager.GetObject("_07_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _08_8 {
+        public static System.Drawing.Bitmap _08_8 {
             get {
                 object obj = ResourceManager.GetObject("_08_8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _09_7 {
+        public static System.Drawing.Bitmap _09_7 {
             get {
                 object obj = ResourceManager.GetObject("_09_7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _10_6 {
+        public static System.Drawing.Bitmap _10_6 {
             get {
                 object obj = ResourceManager.GetObject("_10_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap button_cancel {
+            get {
+                object obj = ResourceManager.GetObject("button_cancel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap button_ok {
+            get {
+                object obj = ResourceManager.GetObject("button_ok", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap critical {
+            get {
+                object obj = ResourceManager.GetObject("critical", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -140,7 +161,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   체력 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect1 {
+        public static string Effect1 {
             get {
                 return ResourceManager.GetString("Effect1", resourceCulture);
             }
@@ -149,7 +170,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   다이어트 효과 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect10 {
+        public static string Effect10 {
             get {
                 return ResourceManager.GetString("Effect10", resourceCulture);
             }
@@ -158,7 +179,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   지력 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect2 {
+        public static string Effect2 {
             get {
                 return ResourceManager.GetString("Effect2", resourceCulture);
             }
@@ -167,7 +188,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   솜씨 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect3 {
+        public static string Effect3 {
             get {
                 return ResourceManager.GetString("Effect3", resourceCulture);
             }
@@ -176,7 +197,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   의지 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect4 {
+        public static string Effect4 {
             get {
                 return ResourceManager.GetString("Effect4", resourceCulture);
             }
@@ -185,7 +206,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   행운 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect5 {
+        public static string Effect5 {
             get {
                 return ResourceManager.GetString("Effect5", resourceCulture);
             }
@@ -194,7 +215,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   최대생명력 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect6 {
+        public static string Effect6 {
             get {
                 return ResourceManager.GetString("Effect6", resourceCulture);
             }
@@ -203,7 +224,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   최대마나 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect7 {
+        public static string Effect7 {
             get {
                 return ResourceManager.GetString("Effect7", resourceCulture);
             }
@@ -212,7 +233,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   최대스태미너 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect8 {
+        public static string Effect8 {
             get {
                 return ResourceManager.GetString("Effect8", resourceCulture);
             }
@@ -221,16 +242,30 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   스태미너 회복도 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Effect9 {
+        public static string Effect9 {
             get {
                 return ResourceManager.GetString("Effect9", resourceCulture);
+            }
+        }
+        
+        public static System.Drawing.Icon gear {
+            get {
+                object obj = ResourceManager.GetObject("gear", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap info {
+            get {
+                object obj = ResourceManager.GetObject("info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   계속 진행하려면 아무 키나 누르세요. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string MsgContinue {
+        public static string MsgContinue {
             get {
                 return ResourceManager.GetString("MsgContinue", resourceCulture);
             }
@@ -239,7 +274,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   복사 되었습니다. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string MsgCopied {
+        public static string MsgCopied {
             get {
                 return ResourceManager.GetString("MsgCopied", resourceCulture);
             }
@@ -248,7 +283,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   입력한 데이터의 형식이 잘못 되었습니다. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string MsgDataInvalid {
+        public static string MsgDataInvalid {
             get {
                 return ResourceManager.GetString("MsgDataInvalid", resourceCulture);
             }
@@ -257,7 +292,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   재료 입수 방법을 입력하세요. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string MsgInsertStuffHowToGet {
+        public static string MsgInsertStuffHowToGet {
             get {
                 return ResourceManager.GetString("MsgInsertStuffHowToGet", resourceCulture);
             }
@@ -266,7 +301,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   재료 이름을 입력하세요. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string MsgInsertStuffName {
+        public static string MsgInsertStuffName {
             get {
                 return ResourceManager.GetString("MsgInsertStuffName", resourceCulture);
             }
@@ -275,7 +310,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   재료 가격을 입력하세요. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string MsgInsertStuffPrice {
+        public static string MsgInsertStuffPrice {
             get {
                 return ResourceManager.GetString("MsgInsertStuffPrice", resourceCulture);
             }
@@ -284,18 +319,271 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   케이틴 = 0, 글리니스 = 1, 세나 = 2, 글루아스 = 3, 리리스 = 4,
         ///에피 = 5, 제니퍼 = 6, 루와이 = 7, 피에릭 = 8, 글라니테스 = 9,
-        ///반스트 = 10, 고든 = 11, 프레이저 = 12, 채집 = 13, 요리 = 14 に類似しているローカライズされた文字列を検索します。
+        ///고든 = 10, 프레이저 = 11, 반스트 = 12, 채집 = 13, 요리 = 14, 
+        ///루카스 = 15, 카독 = 16 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string MsgLegend {
+        public static string MsgLegend {
             get {
                 return ResourceManager.GetString("MsgLegend", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   파이 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Rank6 {
+            get {
+                return ResourceManager.GetString("Rank6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   잼 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Rank7 {
+            get {
+                return ResourceManager.GetString("Rank7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   파스타 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Rank8 {
+            get {
+                return ResourceManager.GetString("Rank8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   볶기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Rank9 {
+            get {
+                return ResourceManager.GetString("Rank9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   튀기기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RankA {
+            get {
+                return ResourceManager.GetString("RankA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   면 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RankB {
+            get {
+                return ResourceManager.GetString("RankB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   끓이기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RankC {
+            get {
+                return ResourceManager.GetString("RankC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   반죽 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RankD {
+            get {
+                return ResourceManager.GetString("RankD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   삶기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RankE {
+            get {
+                return ResourceManager.GetString("RankE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   굽기 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RankF {
+            get {
+                return ResourceManager.GetString("RankF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   혼합 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RankP {
+            get {
+                return ResourceManager.GetString("RankP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   케이틴 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller00 {
+            get {
+                return ResourceManager.GetString("Seller00", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   글리니스 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller01 {
+            get {
+                return ResourceManager.GetString("Seller01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   세나 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller02 {
+            get {
+                return ResourceManager.GetString("Seller02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   글루아스 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller03 {
+            get {
+                return ResourceManager.GetString("Seller03", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   리리스 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller04 {
+            get {
+                return ResourceManager.GetString("Seller04", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   에피 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller05 {
+            get {
+                return ResourceManager.GetString("Seller05", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   제니퍼 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller06 {
+            get {
+                return ResourceManager.GetString("Seller06", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   루와이 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller07 {
+            get {
+                return ResourceManager.GetString("Seller07", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   피에릭 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller08 {
+            get {
+                return ResourceManager.GetString("Seller08", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   글라니테스 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller09 {
+            get {
+                return ResourceManager.GetString("Seller09", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   고든 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller10 {
+            get {
+                return ResourceManager.GetString("Seller10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   프레이저 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller11 {
+            get {
+                return ResourceManager.GetString("Seller11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   반스트 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller12 {
+            get {
+                return ResourceManager.GetString("Seller12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   채집 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller13 {
+            get {
+                return ResourceManager.GetString("Seller13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   요리 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller14 {
+            get {
+                return ResourceManager.GetString("Seller14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   루카스 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller15 {
+            get {
+                return ResourceManager.GetString("Seller15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   카독 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller16 {
+            get {
+                return ResourceManager.GetString("Seller16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   알림 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string StrInfo {
+        public static string StrInfo {
             get {
                 return ResourceManager.GetString("StrInfo", resourceCulture);
             }
@@ -304,7 +592,7 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   없음 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string StrNothing {
+        public static string StrNothing {
             get {
                 return ResourceManager.GetString("StrNothing", resourceCulture);
             }
@@ -313,9 +601,16 @@ namespace CookImplement.Properties {
         /// <summary>
         ///   요리재료 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string StrStuff {
+        public static string StrStuff {
             get {
                 return ResourceManager.GetString("StrStuff", resourceCulture);
+            }
+        }
+        
+        public static System.Drawing.Bitmap warning {
+            get {
+                object obj = ResourceManager.GetObject("warning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

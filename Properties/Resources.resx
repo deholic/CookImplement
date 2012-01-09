@@ -117,6 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_ok.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Effect1" xml:space="preserve">
     <value>체력</value>
     <comment>Str</comment>
@@ -178,7 +185,120 @@
   <data name="MsgLegend" xml:space="preserve">
     <value>케이틴 = 0, 글리니스 = 1, 세나 = 2, 글루아스 = 3, 리리스 = 4,
 에피 = 5, 제니퍼 = 6, 루와이 = 7, 피에릭 = 8, 글라니테스 = 9,
-반스트 = 10, 고든 = 11, 프레이저 = 12, 채집 = 13, 요리 = 14</value>
+고든 = 10, 프레이저 = 11, 반스트 = 12, 채집 = 13, 요리 = 14, 
+루카스 = 15, 카독 = 16</value>
+  </data>
+  <data name="Rank6" xml:space="preserve">
+    <value>파이</value>
+    <comment>10</comment>
+  </data>
+  <data name="Rank7" xml:space="preserve">
+    <value>잼</value>
+    <comment>9</comment>
+  </data>
+  <data name="Rank8" xml:space="preserve">
+    <value>파스타</value>
+    <comment>8</comment>
+  </data>
+  <data name="Rank9" xml:space="preserve">
+    <value>볶기</value>
+    <comment>7</comment>
+  </data>
+  <data name="RankA" xml:space="preserve">
+    <value>튀기기</value>
+    <comment>6</comment>
+  </data>
+  <data name="RankB" xml:space="preserve">
+    <value>면</value>
+    <comment>5</comment>
+  </data>
+  <data name="RankC" xml:space="preserve">
+    <value>끓이기</value>
+    <comment>4</comment>
+  </data>
+  <data name="RankD" xml:space="preserve">
+    <value>반죽</value>
+    <comment>3</comment>
+  </data>
+  <data name="RankE" xml:space="preserve">
+    <value>삶기</value>
+    <comment>2</comment>
+  </data>
+  <data name="RankF" xml:space="preserve">
+    <value>굽기</value>
+    <comment>1</comment>
+  </data>
+  <data name="RankP" xml:space="preserve">
+    <value>혼합</value>
+    <comment>0</comment>
+  </data>
+  <data name="Seller00" xml:space="preserve">
+    <value>케이틴</value>
+    <comment>Ceitinn</comment>
+  </data>
+  <data name="Seller01" xml:space="preserve">
+    <value>글리니스</value>
+    <comment>Glynis</comment>
+  </data>
+  <data name="Seller02" xml:space="preserve">
+    <value>세나</value>
+    <comment>Scena</comment>
+  </data>
+  <data name="Seller03" xml:space="preserve">
+    <value>글루아스</value>
+    <comment>Glewyas</comment>
+  </data>
+  <data name="Seller04" xml:space="preserve">
+    <value>리리스</value>
+    <comment>Lilith</comment>
+  </data>
+  <data name="Seller05" xml:space="preserve">
+    <value>에피</value>
+    <comment>Effie</comment>
+  </data>
+  <data name="Seller06" xml:space="preserve">
+    <value>제니퍼</value>
+    <comment>Jennifer</comment>
+  </data>
+  <data name="Seller07" xml:space="preserve">
+    <value>루와이</value>
+    <comment>Ruway</comment>
+  </data>
+  <data name="Seller08" xml:space="preserve">
+    <value>피에릭</value>
+    <comment>Pierrick</comment>
+  </data>
+  <data name="Seller09" xml:space="preserve">
+    <value>글라니테스</value>
+    <comment>Granites</comment>
+  </data>
+  <data name="Seller10" xml:space="preserve">
+    <value>고든</value>
+    <comment>Wanst</comment>
+  </data>
+  <data name="Seller11" xml:space="preserve">
+    <value>프레이저</value>
+    <comment>Gordon</comment>
+  </data>
+  <data name="Seller12" xml:space="preserve">
+    <value>반스트</value>
+    <comment>Fraser</comment>
+  </data>
+  <data name="Seller13" xml:space="preserve">
+    <value>채집</value>
+    <comment>by Gathering</comment>
+  </data>
+  <data name="Seller14" xml:space="preserve">
+    <value>요리</value>
+    <comment>by Cooking</comment>
+  </data>
+  <data name="Seller15" xml:space="preserve">
+    <value>루카스</value>
+    <comment>Lucas</comment>
+  </data>
+  <data name="Seller16" xml:space="preserve">
+    <value>카독</value>
+    <comment>Kadok</comment>
   </data>
   <data name="StrInfo" xml:space="preserve">
     <value>알림</value>
@@ -189,7 +309,6 @@
   <data name="StrStuff" xml:space="preserve">
     <value>요리재료</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="_00_P" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\00-P.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -222,5 +341,18 @@
   </data>
   <data name="_10_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\10-6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gear.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="critical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\critical.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
