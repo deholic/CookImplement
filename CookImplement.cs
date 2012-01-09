@@ -154,6 +154,9 @@ namespace CookImplement
 				case 14: return CookImplement.Properties.Resources.Seller14;	// by Cooking
                 case 15: return CookImplement.Properties.Resources.Seller15;    // Lucas
                 case 16: return CookImplement.Properties.Resources.Seller16;    // Kadok
+                case 17: return CookImplement.Properties.Resources.Seller17;    // Annick
+                case 18: return CookImplement.Properties.Resources.Seller18;    // Banalren
+                case 19: return CookImplement.Properties.Resources.Seller19;    // Barry
 				default: return null;
 			}
 		}
@@ -581,7 +584,7 @@ namespace CookImplement
 				Console.Write(CookImplement.Properties.Resources.MsgLegend + "\n#");
 				int i = -1;
 				i = Int32.Parse(Console.ReadLine());
-				while (i >= 0 && i <= 15)
+				while (i >= 0 && i <= 19)
 				{
 					//SellingPoint.Add((SellerName)Enum.Parse(typeof(SellerName), i.ToString()));
 					SellingPoint.Add( Seller.toString(i) );
@@ -614,7 +617,8 @@ namespace CookImplement
 					for (int i = 0; i < SellerDatas.Length; i++)
 					{
 						//SellingPoint.Add((SellerName)Enum.Parse(typeof(SellerName), SellerDatas[i]));
-						SellingPoint.Add(Seller.toString(i));
+                        int num = int.Parse(SellerDatas[i]);
+                        SellingPoint.Add(Seller.toString(num));
 					}
 				}
 			}

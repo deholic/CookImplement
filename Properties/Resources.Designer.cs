@@ -581,6 +581,33 @@ namespace CookImplement.Properties {
         }
         
         /// <summary>
+        ///   아닉 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller17 {
+            get {
+                return ResourceManager.GetString("Seller17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   바날렌 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller18 {
+            get {
+                return ResourceManager.GetString("Seller18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   배리 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Seller19 {
+            get {
+                return ResourceManager.GetString("Seller19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   알림 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StrInfo {

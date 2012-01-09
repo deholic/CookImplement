@@ -275,6 +275,18 @@
   <data name="Seller16" xml:space="preserve">
     <value>カドック</value>
   </data>
+  <data name="Seller17" xml:space="preserve">
+    <value>アニック</value>
+    <comment>Annick</comment>
+  </data>
+  <data name="Seller18" xml:space="preserve">
+    <value>バナレン</value>
+    <comment>Banalren</comment>
+  </data>
+  <data name="Seller19" xml:space="preserve">
+    <value>バリー</value>
+    <comment>Barry</comment>
+  </data>
   <data name="StrInfo" xml:space="preserve">
     <value>情報</value>
   </data>

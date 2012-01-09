@@ -231,6 +231,15 @@ Wanst = 10, Gordon = 11, Fraser  = 12, by Gathering = 13, by Cooking = 14, Lucas
   <data name="Seller16" xml:space="preserve">
     <value>Kadok</value>
   </data>
+  <data name="Seller17" xml:space="preserve">
+    <value>Annick</value>
+  </data>
+  <data name="Seller18" xml:space="preserve">
+    <value>Banalren</value>
+  </data>
+  <data name="Seller19" xml:space="preserve">
+    <value>Barry</value>
+  </data>
   <data name="StrInfo" xml:space="preserve">
     <value>Infomation</value>
   </data>
