@@ -184,6 +184,7 @@ namespace CookImplement
 			string[] datas = s.Split(';');
 			string[] buffer;
 			cEffect = new int[11];
+            cStuff = new String[3];
 			int[] intbuffer = new int[3];
 			try
 			{
@@ -253,7 +254,7 @@ namespace CookImplement
 					i++;
 				}
 			}
-			catch (IndexOutOfRangeException e)
+			catch (Exception e)
 			{
 				ErrorDialog error = new ErrorDialog(s, e.StackTrace); error.ShowDialog();
 			}
